@@ -50,6 +50,5 @@ else:
                        font_variant="liga 0"))
     
 
-# Render as png
 d.save_svg('keylegend.svg')
 

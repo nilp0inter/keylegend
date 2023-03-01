@@ -4,6 +4,11 @@ This module generates a SVG image for a key legend.
 The SVG consists of a black square. A title text in the top left corner aligned
 to the left. And an action text in the middle of the key, center aligned.
 
+You can use the symbol '$' to split the action text in two lines.
+
+Usage: python keylegend.py "Title" "Action"
+This will produce a keylegend.svg file.
+
 """
 import drawsvg as draw
 import sys

@@ -1,5 +1,5 @@
 """
-This module writes generates a SVG image for a key legend.
+This module generates a SVG image for a key legend.
 
 The SVG consists of a black square. A title text in the top left corner aligned
 to the left. And an action text in the middle of the key, center aligned.

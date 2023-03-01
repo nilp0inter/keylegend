@@ -1,0 +1,28 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "fa19da268f308b34e95001487fedd89455e15a3c875aa5fe2c93dfe34b61b442"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.10"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "drawsvg": {
+            "hashes": [
+                "sha256:98b9f464aa1c074b438e44c4ac8d4197b2332f3d11e0a06457f948d1b3166072"
+            ],
+            "index": "pypi",
+            "version": "==2.0.2"
+        }
+    },
+    "develop": {}
+}

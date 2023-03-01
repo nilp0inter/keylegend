@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "svg-text-to-path": "^2.0.2"
+  }
+}

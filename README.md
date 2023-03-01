@@ -1,6 +1,6 @@
 # keylegend
 
-A simple tool to generate a legend for a keymap.
+A simple tool to generate a legend for a keycap.
 
 ```console
 $ pipenv sync

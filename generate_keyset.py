@@ -10,14 +10,14 @@ def generate_keyset(csv_file, output_dir):
         next(reader)  # Skip the header row
 
         for idx, row in enumerate(reader):
-            title, action, title_font_size, action_font_size, title_font_family, action_font_family, background_color, title_color, action_color = row
+            title, action, icon, title_font_size, action_font_size, title_font_family, action_font_family, background_color, title_color, action_color = row
             title_font_size = int(title_font_size)
             action_font_size = int(action_font_size)
 
             output_filename = f"{idx + 1}-{title}-{action}.svg"
             output_path = os.path.join(output_dir, output_filename)
 
-            create_keylegend(title, action, output_path, title_font_size, action_font_size, title_font_family, action_font_family, background_color, title_color, action_color)
+            create_keylegend(title, action, icon, output_path, title_font_size, action_font_size, title_font_family, action_font_family, background_color, title_color, action_color)
 
 
 def main():

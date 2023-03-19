@@ -5,6 +5,10 @@ name = "pypi"
 
 [packages]
 drawsvg = "*"
+fontawesome = "*"
+reportlab = "*"
+svglib = "*"
+cairosvg = "*"
 
 [dev-packages]
 

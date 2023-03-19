@@ -1,13 +1,19 @@
 import argparse
+from io import BytesIO
 import os
 from reportlab.lib import pagesizes
 from reportlab.lib.units import mm
 from reportlab.pdfgen import canvas
 from reportlab.graphics import renderPDF
-from svglib.svglib import svg2rlg
+import cairosvg
+from reportlab.lib.utils import ImageReader
 
 KEY_SIZE = os.environ.get("KEY_SIZE", "14")
 
+
+def convert_svg_to_png(svg_path):
+    png_data = cairosvg.svg2png(url=svg_path)
+    return ImageReader(BytesIO(png_data))
 
 def combine_svgs_to_pdf(input_dir, output_file, key_size_mm, pagesize, is_portrait, max_columns):
     pagesize = getattr(pagesizes, pagesize)
@@ -35,21 +41,18 @@ def combine_svgs_to_pdf(input_dir, output_file, key_size_mm, pagesize, is_portra
             y_offset -= new_height
 
         svg_path = os.path.join(input_dir, svg_file)
-        drawing = svg2rlg(svg_path)
+        image = convert_svg_to_png(svg_path)
 
-        aspect_ratio = drawing.height / drawing.width
+        aspect_ratio = float(image.getSize()[1]) / float(image.getSize()[0])
         new_width = key_size_mm * mm
         new_height = new_width * aspect_ratio
-
-        scale_x, scale_y = new_width / drawing.width, new_height / drawing.height
-        drawing.scale(scale_x, scale_y)
 
         if x_offset + new_width > pagesize[0] - 10 * mm:  # Check if the drawing exceeds the right margin
             x_offset = 10 * mm
             y_offset -= new_height
             column_count = 0
 
-        renderPDF.draw(drawing, c, x_offset, y_offset - new_height)
+        c.drawImage(image, x_offset, y_offset - new_height, new_width, new_height)
         x_offset += new_width
         column_count += 1
 

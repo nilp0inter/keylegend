@@ -1,0 +1,21 @@
+Color Name,RGB Code,Group,Why
+Blue,#0000FF,Neovim,Represents Neovim's default color scheme
+Green,#008000,Testing,Green indicates success and passing tests
+Purple,#800080,Desktop Utilities,Represents a neutral color for utilities
+Red,#FF0000,Security,"Red signals caution, danger, or critical actions"
+Orange,#FFA500,Desktop Utilities,A warm color for miscellaneous utilities
+Light Blue,#ADD8E6,Communication Apps,Light and friendly color for communication
+Yellow,#FFFF00,Warnings/Alerts,Yellow represents caution or pending actions
+Lime,#00FF00,Success,Bright green color indicates successful actions
+Teal,#008080,Web Browsing,A calm color for browsing-related actions
+Maroon,#800000,Errors/Failures,Dark red color represents errors or failures
+Olive,#808000,Version Control,Earthy color represents code/version history
+Navy,#000080,Coding,A dark blue color for general coding tasks
+Fuchsia,#FF00FF,Creativity,"A bright, playful color for creative tasks"
+Aqua,#00FFFF,File Management,Fresh color represents file organization
+Silver,#C0C0C0,System Settings,Neutral color for system settings or options
+Gray,#808080,Neutral Actions,A balanced color for neutral tasks/actions
+Black,#000000,Power Management,"Represents power-related actions (e.g., shutdown)"
+White,#FFFFFF,Light Theme,Bright color for light-themed tasks/actions
+Coral,#FF7F50,Entertainment,Warm color for multimedia or entertainment
+Dark Green,#006400,Environment/Config,Represents configuration or environment settings

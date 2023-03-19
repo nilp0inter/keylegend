@@ -29,10 +29,10 @@ def combine_svgs_to_pdf(input_dir, output_file, key_size_mm):
 
         if x_offset + new_width > A4[0] - 10 * mm:  # Check if the drawing exceeds the right margin
             x_offset = 10 * mm
-            y_offset -= new_height + 10 * mm  # Move to the next row with a 10mm margin
+            y_offset -= new_height  # Move to the next row without a margin
 
         renderPDF.draw(drawing, c, x_offset, y_offset - new_height)
-        x_offset += new_width + 10 * mm  # Move to the next column with a 10mm margin
+        x_offset += new_width  # Move to the next column without a margin
 
     c.save()
 

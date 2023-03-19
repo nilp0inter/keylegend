@@ -10,7 +10,11 @@ from svglib.svglib import svg2rlg
 def combine_svgs_to_pdf(input_dir, output_file, key_size_mm):
     c = canvas.Canvas(output_file, pagesize=A4)
 
-    svg_files = sorted(os.listdir(input_dir))
+    def extract_numerical_prefix(file_name):
+        num, *_ = file_name.split('-', 1)
+        return int(num)
+
+    svg_files = sorted(os.listdir(input_dir), key=extract_numerical_prefix)
     x_offset, y_offset = 10 * mm, A4[1] - 10 * mm  # Initialize with top-left corner, 10mm margin
 
     for svg_file in svg_files:

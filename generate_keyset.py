@@ -15,7 +15,7 @@ def generate_keyset(csv_file, output_dir):
             action_font_size = int(action_font_size)
             icon_size = int(icon_size)
 
-            output_filename = f"{idx + 1}-{title}-{action}.svg"
+            output_filename = f"{idx + 1}-{title.replace('/', '_')}-{action.replace('/', '_')}.svg"
             output_path = os.path.join(output_dir, output_filename)
 
             create_keylegend(title, action, icon, output_path, title_font_size, action_font_size, icon_size, title_font_family, action_font_family, background_color, title_color, action_color)

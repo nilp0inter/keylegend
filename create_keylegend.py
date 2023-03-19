@@ -43,7 +43,7 @@ def create_keylegend(title, action, icon, output_file, title_font_size, action_f
     d.append(draw.Rectangle(-KEY_WIDTH/2, -KEY_WIDTH/2, KEY_WIDTH, KEY_WIDTH, fill=background_color, stroke='black', stroke_width=1))
 
     # Draw the title text
-    d.append(draw.Text(title, title_font_size, (-KEY_WIDTH/2) + MARGIN,
+    d.append(draw.Text(title, title_font_size, (-KEY_WIDTH/2) + (MARGIN * 1.75),
                        (-KEY_WIDTH/2) + title_font_size + MARGIN,
                        text_anchor='start', font_family=title_font_family,
                        fill=title_color))
@@ -57,7 +57,7 @@ def create_keylegend(title, action, icon, output_file, title_font_size, action_f
         d.append(draw.Text(icon_glyph,
                            icon_size,
                            0,
-                           (icon_size) / 2,
+                           (icon_size / 2) - (MARGIN / 2),
                            text_anchor='middle',
                            font_family='Font Awesome 5 Free',
                            font_weight='900',

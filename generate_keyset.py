@@ -1,7 +1,7 @@
 import argparse
 import csv
 import os
-from keylegend import create_keylegend
+from create_keylegend import create_keylegend
 
 
 def generate_keyset(csv_file, output_dir):

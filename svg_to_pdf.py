@@ -6,7 +6,7 @@ from reportlab.pdfgen import canvas
 from reportlab.graphics import renderPDF
 from svglib.svglib import svg2rlg
 
-KEY_SIZE = os.environ.get("KEY_SIZE", "13")
+KEY_SIZE = os.environ.get("KEY_SIZE", "14")
 
 
 def combine_svgs_to_pdf(input_dir, output_file, key_size_mm, pagesize, is_portrait, max_columns):

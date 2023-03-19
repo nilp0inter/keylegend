@@ -28,22 +28,22 @@ def create_keylegend(title, action, output_file, title_font_size, action_font_si
     d.append(draw.Text(title, title_font_size, (-KEY_WIDTH/2) + MARGIN,
                        (-KEY_WIDTH/2) + title_font_size + MARGIN,
                        text_anchor='start', font_family=title_font_family,
-                       font_weight='bold', fill=title_color))
+                       fill=title_color))
 
     # Draw the action text
     if '$' not in action:
         d.append(draw.Text(action, action_font_size, 0, (title_font_size + 2*MARGIN) /
                            2, text_anchor='middle', font_family=action_font_family,
-                           font_variant="liga 0", fill=action_color))
+                           font_variant="liga 0", font_weight='bold', fill=action_color))
     else:
         # Action text are two lines. Centered taking into account the size.
         action1, action2, *_ = action.split('$')
         d.append(draw.Text(action1, action_font_size, 0, (title_font_size + 2*MARGIN) /
                            2 - action_font_size/2, text_anchor='middle', font_family=action_font_family,
-                           font_variant="liga 0", fill=action_color))
+                           font_variant="liga 0", font_weight='bold', fill=action_color))
         d.append(draw.Text(action2, action_font_size, 0, (title_font_size + 2*MARGIN) /
                            2 + action_font_size/2, text_anchor='middle', font_family=action_font_family,
-                           font_variant="liga 0", fill=action_color))
+                           font_variant="liga 0", font_weight='bold', fill=action_color))
 
     d.save_svg(output_file)
 
@@ -55,8 +55,8 @@ def main():
     parser.add_argument('-o', '--output', default='keylegend.svg', help='Output file name. Default is "keylegend.svg".')
     parser.add_argument('--title-font-size', type=int, default=12, help='Font size for the title text. Default is 12.')
     parser.add_argument('--action-font-size', type=int, default=22, help='Font size for the action text. Default is 22.')
-    parser.add_argument('--title-font-family', default='Atkinson Hyperlegible', help='Font family for the title text. Default is "Atkinson Hyperlegible".')
-    parser.add_argument('--action-font-family', default='Atkinson Hyperlegible', help='Font family for the action text. Default is "Atkinson Hyperlegible".')
+    parser.add_argument('--title-font-family', default='Helvetica', help='Font family for the title text. Default is "Helvetica".')
+    parser.add_argument('--action-font-family', default='Helvetica', help='Font family for the action text. Default is "Helvetica".')
     parser.add_argument('--background-color', default='none', help='Background color for the key legend. Default is "none".')
     parser.add_argument('--title-color', default='black', help='Color for the title text. Default is "black".')
     parser.add_argument('--action-color', default='black', help='Color for the action text. Default is "black".')

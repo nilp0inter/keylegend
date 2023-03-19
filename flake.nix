@@ -5,10 +5,12 @@
   {
     devShells.x86_64-linux.default = pkgs.mkShell rec {
 
-      buildInputs = [
-        pkgs.pipenv
-        pkgs.zlib
-        pkgs.nodejs
+      buildInputs = with pkgs; [
+        pipenv
+        zlib
+        nodejs
+        entr
+        cairo
       ];
 
       shellHook = ''

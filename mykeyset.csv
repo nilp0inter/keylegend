@@ -6,14 +6,14 @@ Copilot,Next,arrow-right,18,14,30,Helvetica,Helvetica,pink,black,black
 Copilot,Accept,check,18,14,30,Helvetica,Helvetica,pink,black,black
 title6,action6,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
 title7,action7,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title8,action8,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title9,action9,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title10,action10,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title11,action11,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title12,action12,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title13,action13,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title14,action14,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title15,action15,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
+LSP,Declaration,code,18,14,30,Helvetica,Helvetica,#c3ffc3,black,black
+LSP,Definition,file-code,18,14,30,Helvetica,Helvetica,#c3ffc3,black,black
+LSP,Implement.,laptop-code,18,14,30,Helvetica,Helvetica,#c3ffc3,black,black
+LSP,Type Def.,atom,18,14,30,Helvetica,Helvetica,#c3ffc3,black,black
+LSP,Signature,signature,18,14,30,Helvetica,Helvetica,#c3ffc3,black,black
+LSP,References,asterisk,18,14,30,Helvetica,Helvetica,#c3ffc3,black,black
+LSP,Rename,pencil-alt,18,14,30,Helvetica,Helvetica,#c3ffc3,black,black
+LSP,Format,indent,18,14,30,Helvetica,Helvetica,#c3ffc3,black,black
 Test,Suite,flask,18,14,30,Helvetica,Helvetica,pink,black,black
 Rofi,Emoji,smile,18,14,30,Helvetica,Helvetica,#c3ffc3,black,black
 Sound,Mixer,volume-up,18,14,30,Helvetica,Helvetica,yellow,black,black

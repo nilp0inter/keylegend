@@ -68,9 +68,9 @@ title66,action66,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
 title67,action67,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
 title68,action68,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
 title69,action69,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title70,action70,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title71,action71,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title72,action72,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title73,action73,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title74,action74,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title75,action75,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
+QuickMacro,Show,search,16,14,30,Helvetica,Helvetica,#ffc356,black,black
+QuickMacro,M1,,16,30,30,Helvetica,Helvetica,#ffc356,black,black
+QuickMacro,M2,,16,30,30,Helvetica,Helvetica,#ffc356,black,black
+QuickMacro,M3,,16,30,30,Helvetica,Helvetica,#ffc356,black,black
+QuickMacro,M4,,16,30,30,Helvetica,Helvetica,#ffc356,black,black
+QuickMacro,M5,,16,30,30,Helvetica,Helvetica,#ffc356,black,black

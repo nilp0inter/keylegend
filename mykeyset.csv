@@ -23,12 +23,12 @@ title21,action21,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
 title22,action22,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
 title23,action23,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
 title24,action24,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title25,action25,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title26,action26,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title27,action27,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title28,action28,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title29,action29,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title30,action30,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
+DAP,Repl,code,18,14,30,Helvetica,Helvetica,#E6E6FA,black,black
+DAP,Step Into,sign-in-alt,18,14,30,Helvetica,Helvetica,#E6E6FA,black,black
+DAP,Step Out,sign-out-alt,18,14,30,Helvetica,Helvetica,#E6E6FA,black,black
+DAP,Step Over,redo-alt,18,14,30,Helvetica,Helvetica,#E6E6FA,black,black
+DAP,Continue,play,18,14,30,Helvetica,Helvetica,#E6E6FA,black,black
+DAP,Breakpoint,map-pin,18,14,30,Helvetica,Helvetica,#E6E6FA,black,black
 Test,File,file-alt,18,14,30,Helvetica,Helvetica,pink,black,black
 Env,Drawer/Light,lightbulb,18,14,30,Helvetica,Helvetica,yellow,black,black
 Meet,Mute,microphone-slash,18,14,30,Helvetica,Helvetica,lightblue,black,black

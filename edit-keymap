@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 make mykeyset.pdf
 zathura mykeyset.pdf &
 scalc mykeyset.csv &

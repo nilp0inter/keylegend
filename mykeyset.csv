@@ -54,11 +54,11 @@ title52,action52,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
 title53,action53,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
 title54,action54,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
 title55,action55,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title56,action56,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title57,action57,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title58,action58,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title59,action59,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
-title60,action60,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
+Harpoon,Show Files,th-list,18,14,30,Helvetica,Helvetica,pink,black,black
+Harpoon,File 1,file-excel,18,14,30,Helvetica,Helvetica,pink,black,black
+Harpoon,File 2,file-excel,18,14,30,Helvetica,Helvetica,pink,black,black
+Harpoon,File 3,file-excel,18,14,30,Helvetica,Helvetica,pink,black,black
+Harpoon,File 4,file-excel,18,14,30,Helvetica,Helvetica,pink,black,black
 Telescope,Cancel,times,18,14,30,Helvetica,Helvetica,pink,black,black
 Telescope,Help,question-circle,18,14,30,Helvetica,Helvetica,#c3ffc3,black,black
 Telescope,Buffers,memory,18,14,30,Helvetica,Helvetica,#c3ffc3,black,black
@@ -68,9 +68,9 @@ title66,action66,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
 title67,action67,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
 title68,action68,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
 title69,action69,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
+title70,action70,asterisk,18,14,30,Helvetica,Helvetica,white,black,black
 QuickMacro,Show,search,16,14,30,Helvetica,Helvetica,#ffc356,black,black
 QuickMacro,M1,,16,30,30,Helvetica,Helvetica,#ffc356,black,black
 QuickMacro,M2,,16,30,30,Helvetica,Helvetica,#ffc356,black,black
 QuickMacro,M3,,16,30,30,Helvetica,Helvetica,#ffc356,black,black
 QuickMacro,M4,,16,30,30,Helvetica,Helvetica,#ffc356,black,black
-QuickMacro,M5,,16,30,30,Helvetica,Helvetica,#ffc356,black,black
